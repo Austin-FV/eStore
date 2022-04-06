@@ -12,6 +12,7 @@ When searching through the products, a HashMap of indexes was created to greatly
 
 
 Assumptions and Limitations:
+    
     The eStoreSearch program limitations: 
         Values in years cannot go past 9999 or below 1000
         
