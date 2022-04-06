@@ -1,6 +1,7 @@
 # eStore
 
 Problem to be Solved:
+
 A problem being solved in this assignment is using GUI, exceptions and understanding polymorphism.
 In this program the general problem I am trying to solve is organizing Class Objects in ArrayLists.
 The program has two types of products: books and electronics. Both the Book and Electronics class are extensions of the parent Product Class. 
@@ -20,6 +21,7 @@ Assumptions and Limitations:
         Assumes positive values for most cases
 
 User Guide:
+
 When program starts a menu is shown that allows the user to pick either Add, Search or Quit.
 If Add is chosen the user can choose to either add a Book product or a Electronics product.
 Each product will require the user to input productID, year, description and price.
@@ -33,8 +35,8 @@ Then program prints found products that match search fields.
 Returns to Menu.
 Finally the program can quit.
 
-How to Build : (./gradlew build)
-How to Run: (./gradlew run)
+    How to Build : (./gradlew build)
+    How to Run: (./gradlew run)
 
 Improvements:
 I could error check for negatives better and create more methods for the main method to test
